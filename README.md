@@ -1,0 +1,1 @@
+Core question: Can a small LLM be fine-tuned to express uncertainty rather than hallucinate answers, while still providing useful reasoning when confident?
