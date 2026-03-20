@@ -49,13 +49,15 @@ Q: What is the secret ingredient in Coca-Cola?
 A: I don't know.
 ```
 
-## Performance(soon)
+<!-- ## Performance
 
 | Metric | Before | After |
 |--------|--------|-------|
 | Hallucination Rate | XX% | XX% |
-| Refusal Rate | XX% | XX% |
+| Refusal Rate | XX% | XX% | -->
 
+##  Experiment Observation
+Our fine-tuned model successfully reduced hallucinated answers but it also introduced a new failure : Over abstention. The model began answering "i dont know" to answerable questions especially those requiring reasoning or contain negative framing.
 
 
 ## License
